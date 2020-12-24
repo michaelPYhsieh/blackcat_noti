@@ -44,7 +44,7 @@ def main():
     while 1:
         new_table = parse_table(billid=BILLID).prettify().replace('\r', '')
         if new_table != old_table:
-            print('不同')
+            # print('不同')
 
             # t = f"{get_color('31;1')}{'狀態變動!'}{get_color(0)}"
             # now(t)
