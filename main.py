@@ -41,7 +41,7 @@ def now(msg):
 
 def main():
     old_table = read_table()
-    while i:
+    while 1:
         new_table = parse_table(billid=BILLID).prettify().replace('\r', '')
         if new_table != old_table:
             print('不同')
