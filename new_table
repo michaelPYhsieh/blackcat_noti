@@ -1,0 +1,68 @@
+<table cellpadding="0" cellspacing="0" class="tablelist">
+ <tr class="top">
+  <td height="38">
+   包裹查詢號碼
+  </td>
+  <td>
+   目前狀態
+  </td>
+  <td>
+   資料登入時間
+  </td>
+  <td>
+   負責營業所
+  </td>
+  <!--
+                    <td>配送人員</td>
+                    -->
+ </tr>
+ <tr align="middle" bgcolor="#ffffff" valign="center">
+  <td height="44" rowspan="2">
+   <span class="bl12">
+    906624880262
+   </span>
+  </td>
+  <td bgcolor="yellow" class="style1" title="包裹正從營業所送到轉運中心，或從轉運中心送到營業所">
+   <span class="bl12">
+    轉運中
+   </span>
+  </td>
+  <td bgcolor="yellow" class="style1">
+   <div align="center">
+    <span class="bl12">
+     2020/12/24
+     <br/>
+     19:22
+    </span>
+   </div>
+  </td>
+  <td bgcolor="yellow" class="style1">
+   <span class="bl12">
+    <a class="text4" href="Foothold_Detail.aspx?ID=458">
+     北一區轉運中心(區)
+    </a>
+   </span>
+  </td>
+ </tr>
+ <tr align="middle" bgcolor="#cef4f5" valign="center">
+  <td class="style1" title="SD已經至寄件人指定地點收到包裹">
+   <span class="bl12">
+    已集貨
+   </span>
+  </td>
+  <td class="style1">
+   <div align="center">
+    <span class="bl12">
+     2020/12/24
+     <br/>
+     11:56
+    </span>
+   </div>
+  </td>
+  <td class="style1">
+   <span class="bl12">
+    北二特販三所
+   </span>
+  </td>
+ </tr>
+</table>

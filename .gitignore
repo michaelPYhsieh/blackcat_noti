@@ -1,0 +1,6 @@
+.env
+__pycache__
+table.html
+text.html
+log.txt
+.conf.ini
