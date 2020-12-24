@@ -41,16 +41,8 @@ def now(msg):
 
 def main():
     old_table = read_table()
-    fn = 'old_table'
-    with open(fn, mode='w', encoding='utf8', errors='ignore') as f:
-        f.write(old_table)
-    i = 1
     while i:
         new_table = parse_table(billid=BILLID).prettify().replace('\r', '')
-        fn = 'new_table'
-        with open(fn, mode='w', encoding='utf8', errors='ignore') as f:
-            f.write(new_table)
-
         if new_table != old_table:
             print('不同')
 
